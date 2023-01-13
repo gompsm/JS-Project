@@ -1,0 +1,54 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+body {
+  height: 1000px;
+}
+
+/* css 초기화 */
+input:focus {
+  outline: 1px solid rgb(46, 44, 44);
+}
+
+
+/* 공용 클래스 */
+
+.pretty-border {
+  border-radius: 20px;
+  border: 1px solid rgba(41, 39, 39, 0.79);
+}
+
+/* 상단 바 */
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 25px;
+  margin: 65px auto;
+  margin-bottom: 0;
+  width: 60vw;
+  max-width: 1200px;
+  background-color: rgb(102, 221, 79);
+}
+
+.navbar>img {
+  display: block;
+  width: 60px;
+  height: 60px;
+}
+
+.navbar>h3 {
+  font-size: 43px;
+  font-weight: 700;
+}
+
+.navbar>input {
+  background-image: url('./assets/search.png');
+  height: 30px;
+  border-radius: 5px;
+}
