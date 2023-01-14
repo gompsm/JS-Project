@@ -47,8 +47,15 @@ input:focus {
   font-weight: 700;
 }
 
-.navbar>input {
-  background-image: url('./assets/search.png');
+/* 검색창 */
+.search>input {
   height: 30px;
   border-radius: 5px;
+}
+
+.search>img {
+  display: inline-block;
+  margin-right: 8px;
+  width: 20px;
+  height: 20px;
 }
