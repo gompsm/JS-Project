@@ -1,14 +1,21 @@
-const text1 = document.querySelector('#text1');
+const textArea = document.querySelector('.text-area');
+const btn = document.querySelector('.form-button'); // 발행 버튼
+
+const memos = document.querySelector('#memos'); //ul 큰 부모
 
 
-// 경기도 축구장 지역 좌표 가져옴 
-const URL = 'https://openapi.gg.go.kr/PublicTrainingFacilitySoccer?KEY=8a290b0ff1194294b392beff3ab0b325&Type=json&pindex=1&psize=100';
+const memoCart = [];
 
 
-let ha = fetch(URL)
-  .then((response) => response.json())
-  .then((data) => console.log(data.PublicTrainingFacilitySoccer[1].row[0]));
+/**
+ * 버튼을 누르면 텍스트 에리어의 문자열 값을 배열 형태로 로컬 스토리지의 저장하고 
+ * li를 생성해서 자료를 쫙 보여주고 
+ * 일단 삭제 수정은 모르겠다 
+ */
+
+btn.addEventListener('click', function () {
+
+});
 
 
-const li = document.querySelector('li');
 

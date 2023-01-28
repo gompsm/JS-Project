@@ -15,4 +15,60 @@ input:focus {
 }
 
 
-/* 공용 클래스 */
+/* 공용 클래스  */
+.center {
+  display: block;
+  margin: 0 auto;
+}
+
+
+body {
+  background-color: bisque;
+}
+
+
+
+/* head */
+#logo {
+  box-shadow: 2px 2px 4px rgb(74, 71, 71);
+  margin-top: 23px !important;
+  text-align: center;
+  max-width: 800px;
+  width: 45%;
+  background-color: rgb(125, 223, 223);
+  border-radius: 30px;
+}
+
+/* 메모장 */
+#memo {
+  margin-top: 30px;
+}
+
+#text-area {
+  font-size: 11px;
+  padding: 20px;
+  border: 2px solid rgb(77, 72, 72);
+  border-radius: 20px;
+}
+
+.btn-ctrl {
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 16px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.form-button {
+  font-weight: 400;
+  font-size: 12px;
+  padding: 5px;
+  width: 75px;
+  height: 30px;
+  border: 1px solid rgb(47, 41, 41);
+  border-radius: 10px;
+}
+
+.form-button:hover {
+  opacity: 0.8;
+}
